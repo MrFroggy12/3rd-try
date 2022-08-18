@@ -1,3 +1,99 @@
-body{
-	background-color: yellowgreen;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+
+body, html{
+	font-family: 'Open Sans', sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+h1{
+	font-weight: 800;
+	font-size: 50px;
+}
+
+h3{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+h4{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.wrapper{
+width: 960px;
+margin: 0 auto;
+}
+
+.hero-banner{
+	background-color: cadetblue;
+	min-height: 100vh;
+	padding: 50px 20px;
+	box-sizing: border-box;
+	position: relative;
+	overflow: hidden;
+}
+
+.hero-banner h4,
+.hero-banner h4 a{
+	color: white;
+	margin: 0;
+}
+
+.hero-banner h1{
+	color: white;
+	margin: 14px 0 20px;
+}
+
+.hero-banner h3{
+	color: white;
+	margin: 0 0 35px;
+}
+
+.character1{
+	background: url(assets/characters/eish-guy.png) no-repeat 0 0;
+	background-size: 100%;
+	width: 363px;
+	height: 344px;
+	position: absolute; top: 117px; right: 10%;
+}
+
+.character2{
+	background: url(assets/characters/circle-guy.png) no-repeat 0 0;
+	background-size: 100%;
+	width: 309;
+	height: 371;
+	position: absolute; top: 213px; right: 109px;
+	transform: rotate(15deg);
+}
+
+
+.character3{
+	background: url(assets/characters/hat-guy.png) no-repeat 0 0;
+	background-size: 100%;
+	width: 297;
+	height: 286;
+	position: absolute; bottom: 74px; right: 277px;
+}
+
+
+a.cta,
+button.cta{
+	background-color: cadetblue;
+	box-shadow: 0 0 0 10px solid rgba(0,0,0,.15);
+	color: black;
+}
+
+a.cta.alt,
+button.cta.alt{
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	background: yellow;
+	display: inline-block;
+	box-shadow: 0 0 0 10px solid rgba(0,127,255,.15);
+	padding: 20px 30px;
+	border-radius: 10px;
+	text-decoration: none;
 }
