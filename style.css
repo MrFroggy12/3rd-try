@@ -11,6 +11,11 @@ h1{
 	font-size: 50px;
 }
 
+h2{
+	font-size: 50px;
+	font-weight: 800;
+}
+
 h3{
 	font-weight: bold;
 	font-size: 30px;
@@ -21,9 +26,15 @@ h4{
 	font-size: 20px;
 }
 
+p{
+	font-weight: bold;
+	font-size: 30px;
+	margin: 30px 0;
+}
+
 .wrapper{
-width: 960px;
-margin: 0 auto;
+	width: 960px;
+	margin: 0 auto;
 }
 
 .hero-banner{
@@ -52,15 +63,16 @@ margin: 0 auto;
 }
 
 .character1{
-	background: url(assets/characters/eish-guy.png) no-repeat 0 0;
+	background: url(assets/characters/circle-guy.png) no-repeat 0 0;
 	background-size: 100%;
 	width: 363px;
 	height: 344px;
-	position: absolute; top: 117px; right: 10%;
+	position: absolute; top: 10%; right: 10%;
+	transform: rotate(15deg);
 }
 
 .character2{
-	background: url(assets/characters/circle-guy.png) no-repeat 0 0;
+	background: url(assets/characters/eish-guy.png) no-repeat 0 0;
 	background-size: 100%;
 	width: 309;
 	height: 371;
@@ -97,3 +109,55 @@ button.cta.alt{
 	border-radius: 10px;
 	text-decoration: none;
 }
+
+nav{
+	height: 100px;
+	background-color: white;
+	box-shadow: 0 5px 8px rgba(0, 0, 0, .2);
+	position: sticky;
+	top: 0
+}
+
+nav .logo{
+	display: block;
+	width: 300px;
+	height: 40;
+	position: absolute; top: 50%; left: 30px; 
+	margin-top: -20px;
+	background: url(assets/characters/giving.png) no-repeat 0 0;
+	background-size: 100%;
+	overflow: hidden;
+	text-indent: -999px;
+}
+
+nav ul{
+	padding: 0;
+	margin: 0 20px 0 0;
+}
+
+nav ul li{
+	margin: 0;
+	padding: 0;
+	display: block;
+	float: right;
+}
+
+nav ul li a{
+	display: block;
+	height: 100%;
+	box-sizing: border-box;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: black;
+	text-decoration: none;
+	padding: 30px 10px;
+	line-height: 30px;
+}
+
+.more-info{
+	text-align: center;
+
+}
+
+.more-info
